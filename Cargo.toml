@@ -1,0 +1,12 @@
+[package]
+name = "tmux-organizer"
+version = "0.1.0"
+edition = "2024"
+description = "A terminal UI for browsing and reorganizing tmux sessions, windows, and panes."
+repository = "https://github.com/Aghabeiki/tmux-organizer"
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
